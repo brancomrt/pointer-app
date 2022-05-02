@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "vorx-infra-remote-state"
+    bucket = "my-bucket-vox"
     key    = "contador-app.tfstate"
     region = "us-east-1"
   }
